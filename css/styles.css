@@ -1,0 +1,264 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+/* HEADINGS */
+.big-heading {
+    font-size: 3.75rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CONTAINERS */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* SECTIONS */
+.coloured-section {
+    background-color: #6b6969;
+    color: white;
+}
+
+.coloured-section p {
+    color: #201f1f;
+}
+
+
+.white-section {
+    background-color: white;
+}
+
+.white-section p {
+    color: #8f8f8f;
+}
+
+/*navigation bar*/
+
+#uc-image {
+    height: 20mm;
+    width: 20mm;
+    padding: 0%;
+    margin: 0%;
+}
+
+.Unik {
+    color: #846D62;
+}
+
+.Coders {
+    color: #A8A29C;
+}
+
+.navbar {
+    /* margin: 0 0 20px; */
+    padding: 0;
+    background-color: #201f1f;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    /* border-radius: 60px; */
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+/* title section */
+
+/* .container {
+   padding: 0%;
+} */
+
+#title {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../images/home-image-1.jpg");
+    background-size: cover;
+    padding-top: 7%;
+    padding-bottom: 16%;
+    color: white;
+}
+
+/* #title .container-fluid {
+    padding: 3% 15% 7%;
+} */
+
+#home {
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.title-text {
+    text-align: left;
+    /* font-size: 3rem; */
+    line-height: 1.5;
+    padding-top: 50px;
+    padding-left: 65px;
+    padding-bottom: 0;
+}
+
+.title-text h1 {
+    font-size: 600%;
+    line-height: 6rem;
+    /* font-weight: 1800; */
+}
+
+.title-text h2 {
+    font-size: 4rem;
+    line-height: 3rem;
+    /* font-weight: 1800; */
+}
+
+
+
+
+
+/* Needs */
+
+#needs {
+
+    padding: 50px 100px;
+    pointer-events: none;
+}
+
+.needs h1 {
+    margin-top: 100px;
+}
+
+.needs p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* GUIDE */
+
+
+.guide-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.guide-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.guide-carousel {
+    text-align: left;
+}
+
+#sgt p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#rr {
+    background-color: #846D62;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#blog {
+
+    padding: 50px 100px;
+    pointer-events: none;
+}
+
+#blog h1 {
+    margin-top: 100px;
+}
+
+
+/*Contact Details*/
+
+#contact-us h2 {
+    padding-top: 20px;
+}
+
+#contact-us p {
+    color: #A8A29C;
+}
+
+.btn-1 {
+    background: #846D62;
+    background-image: -webkit-linear-gradient(top, #978597, #A8A29C);
+    background-image: -moz-linear-gradient(top, #978574, #A8A29C);
+    background-image: -ms-linear-gradient(top, #A8A29C, #A8A29C);
+    background-image: -o-linear-gradient(top, #A8A29C, #A8A29C);
+    background-image: -webkit-gradient(to bottom, #A8A29C, #A8A29C);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #EAF6F6;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-1:hover {
+    background: #9d856d;
+    text-decoration: none;
+}
+
+/* footer */
+
+.btn-2 {
+    color: #A8A29C;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-2:hover {
+    color: #9d856d;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0;
+}
